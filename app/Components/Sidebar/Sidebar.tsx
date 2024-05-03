@@ -18,7 +18,7 @@ function Sidebar() {
   };
 
   return (
-    <SidebarStyled theme={theme} >
+    <SidebarStyled theme={theme} collapsed >
       <div className="profile">
         <div className="profile-overlay"></div>
         <div className="image">
